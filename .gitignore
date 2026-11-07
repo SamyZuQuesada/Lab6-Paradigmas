@@ -1,0 +1,27 @@
+# ═══════════════════════════════════════════════════
+# Shared workspace .gitignore
+# ═══════════════════════════════════════════════════
+
+# ── Personal / machine-specific (never shared) ────
+/Machine/
+/temp/
+# Repositorios locales de los proyectos
+/Repos/
+
+# ── Personal knowledge bases (optional: remove a line to share yours) ──
+# To keep your personal KB private, add it here:
+# /Knowledge/YourName-Brain/
+
+# ── OS / editor noise ─────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ── Node / Python artifacts ───────────────────────
+node_modules/
+__pycache__/
+*.pyc
+.env
+.env.local
